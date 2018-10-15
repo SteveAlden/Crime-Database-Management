@@ -1,0 +1,272 @@
+/*----------------------------------------------
+css settings for HTML div exactCenter 
+------------------------------------------------*/
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+
+h3,p,label{
+	text-align:center;
+	font-family: 'Raleway', sans-serif;
+	color:black;
+ }
+h2{
+	font-family: 'Raleway', sans-serif;
+	} 
+input{
+	width:100%;
+	margin-bottom:20px;
+	padding:5px;
+	height:30px;
+	box-shadow: 1px 1px 12px gray;
+	border-radius:3px;
+	border:none;
+ }
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+}
+
+.button1:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.button2 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #008CBA;
+}
+
+.button2:hover {
+    background-color: #008CBA;
+    color: white;
+}
+
+.button3 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #f44336;
+}
+
+.button3:hover {
+    background-color: #f44336;
+    color: white;
+}
+
+.button4 {
+    background-color: white;
+    color: black;
+    border: 2px solid #e7e7e7;
+}
+
+.button4:hover {background-color: #e7e7e7;}
+
+.button5 {
+    background-color: #008CBA;
+    color: white;
+    border: 1px solid white;
+	width: 250px;
+}
+
+.button5:hover {
+    background-color: #555555;
+    color: white;
+}
+
+.button5n {
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+	width: 250px;
+}
+
+.button5n:hover {
+    background-color: #555555;
+    color: white;
+}
+.button6 {
+    background-color: #555555;
+    color: white;
+    border: 2px solid #555555;
+	width: 250px;
+}
+
+.button6:hover {
+    background-color: red;
+    color: white;
+}
+
+.button7 {
+    background-color: #e7e7e7;
+    color: black;
+    border: 2px solid #555555;
+	width: 250px;
+}
+
+.button7:hover {
+    background-color: #555555;
+    color: white;
+}
+
+.button8 {
+    background-color: #555555;
+    color: black;
+    border: 2px solid #555555;
+	width: 250px;
+}
+
+.button8:hover {
+    background-color: white;
+    color: white;
+}
+
+.button55 {
+    background-color: #008CBA;
+    color: white;
+    border: 1px solid white;
+	width: 250px;
+	float: right;
+}
+
+.button55:hover {
+    background-color: #555555;
+    color: white;
+}
+
+.button56 {
+    background-color: #008CBA;
+    color: white;
+    border: 1px solid white;
+	width: 250px;
+	float: left;
+}
+
+.button56:hover {
+    background-color: #555555;
+    color: white;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+    background-color: #008CBA;
+    color: white;
+}
+textarea{
+    width:100%;
+	height:80px;
+	margin-top:10px;
+	padding:5px;
+	box-shadow: 1px 1px 12px gray;
+	border-radius:3px;
+ }
+/*#send{
+	width:103%;
+	height:45px;
+	margin-top:40px;
+	border-radius:3px;
+	background-color: peru;
+	border:1px solid white;
+	color:white;
+	font-family: 'Raleway', sans-serif;
+	font-size:18px;
+}*/
+#send{
+	width:103%;
+	height:45px;
+	margin-top:20px;
+	border-radius:4px;
+	background-color: #008CBA;
+	border:1px solid white;
+	color:white;
+	font-family: 'Raleway', sans-serif;
+	font-size:18px;
+	-webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+#send:hover
+{
+	background-color: #e7e7e7;
+    color: black;
+}
+#send1{
+	width:103%;
+	height:30px;
+	margin-top:5px;
+	border-radius:4px;
+	background-color: #008CBA;
+	border:1px solid white;
+	color:white;
+	font-family: 'Raleway', sans-serif;
+	font-size:18px;
+	-webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+#send1:hover
+{
+	background-color: #e7e7e7;
+    color: black;
+}
+
+.card {
+  background-color:#f3f3f3;
+  border-radius: 2px;
+  padding:20px 25px 20px 15px;
+  display: inline-block;
+  height: 585px;
+  margin: 1rem;
+  position: relative;
+  width: 330px;
+  font-family: 'Raleway', sans-serif;
+  float:left;
+}
+
+.card-4 {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+div#feedback{
+	margin: auto;
+	text-align:center;
+	height:585px; 
+	width:330px; 
+	padding:5px 25px 30px 15px; 
+	background-color:#f3f3f3; 
+	border-radius:3px; 
+	border: 1px #008CBA;
+	font-family: 'Raleway', sans-serif;
+	/*float:left;*/
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+	} 
+.container{
+	
+	width:960px;
+	margin:40px auto;
+	}
